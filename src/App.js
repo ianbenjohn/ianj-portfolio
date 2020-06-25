@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import './App.css';
 
 
-function App() {
+const App = () => {
   return (
     <Home />
   );
