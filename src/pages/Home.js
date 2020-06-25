@@ -1,9 +1,6 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
-import '../App.css'
-
-
-
+import '../App.css';
 
 const Home = () => {
     //Styles for Home Page
@@ -11,9 +8,6 @@ const Home = () => {
         borderRadius: "40%",
         height: "250px",
         paddingTop: "10px",
-    }
-    const homeGrid = {
-        
     }
     const bannerStyle = {
         backgroundColor: "black",
@@ -37,6 +31,21 @@ const Home = () => {
         fontSize: "20px",
         padding: "1em"
     }
+    const linkStyle = {
+        display: "flex",
+        justifyContent: "space-between",
+        width: "50%",
+        margin: "auto",
+    }
+    const homeGrid = {
+        textAlign: "center",
+        position: "fixed",
+        width: "100%",
+        height: "100%",
+        background: "#659999",
+        background: "linear-gradient(to bottom, #659999, #f4791f)"
+    }
+    
 
     return (
         <div style={{width: "100%", margin: "auto"}}>
@@ -53,7 +62,19 @@ const Home = () => {
                         
                     <hr style={hrStyle}/>
                         <p style={pStyle}>HTML/CSS | JavaScript | ReactJS | NodeJS | Express | MongoDB | MySQL</p>
+                        <div style={linkStyle}>
+                            
+                            <a href="https://www.linkedin.com/in/ian-johnson-63611b133" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-linkedin-square" aria-hidden="true" />
+                            </a>
+                            <a href="https://github.com/ianbenjohn" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-github-square" aria-hidden="true" />
+                            </a>
+                            <a href="https://www.youtube.com" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-youtube-square" aria-hidden="true" />
+                            </a>
 
+                        </div>
                     </div>
                 </Cell>
             </Grid>
