@@ -4,27 +4,25 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 
 const Nav = () => {
     return(
-        <div style={{height: '300px', position: 'relative'}}>
-    <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
-        <Header transparent title="Title" style={{color: 'white'}}>
+        <div style={{height: '250px', position: 'relative'}}>
+        <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
+        <Header transparent title="IanBenJon" style={{color: 'white'}}>
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <a href="/">Home</a>
+                <a href="/projects">Projects</a>
+                <a href="/contact">Contact</a>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="IanBenJon">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <a href="/">Home</a>
+                <a href="/projects">Projects</a>
+                <a href="/contact">Contact</a>
             </Navigation>
         </Drawer>
         <Content />
-    </Layout>
-</div>
+        </Layout>
+    </div>
     )
 }
 
