@@ -1,25 +1,31 @@
 import React from 'react';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Content } from 'react-mdl';
+import "../../App.css"
+
 
 
 const Nav = () => {
+    const headerStyle ={
+        color: "cornsilk",
+        backgroundColor: "black",
+        opacity: ".9",
+        position: "fixed"
+    }
+    const bigChungus = {
+        color: "cornsilk",
+        fontSize: "16px"
+    }
     return(
-        <div style={{height: '250px', position: 'relative'}}>
-        <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
-        <Header transparent title="IanBenJon" style={{color: 'white'}}>
+        <div>
+        <Layout fixedHeader>
+        <Header title="IanBenJon" style={headerStyle}>
             <Navigation>
-                <a href="/">Home</a>
-                <a href="/projects">Projects</a>
-                <a href="/contact">Contact</a>
+                <a style={bigChungus} href="/">Home</a>
+                <a style={bigChungus} href="/projects">Projects</a>
+                <a style={bigChungus} href="/contact">Contact</a>
             </Navigation>
         </Header>
-        <Drawer title="IanBenJon">
-            <Navigation>
-                <a href="/">Home</a>
-                <a href="/projects">Projects</a>
-                <a href="/contact">Contact</a>
-            </Navigation>
-        </Drawer>
+        
         <Content />
         </Layout>
     </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from '../components/Nav'
 import { Grid, Cell } from 'react-mdl';
 import '../App.css';
 
@@ -7,7 +8,7 @@ const Home = () => {
     const imgStyle = {
         borderRadius: "40%",
         height: "250px",
-        paddingTop: "10px",
+        border: "5px solid cornsilk"
     }
     const bannerStyle = {
         backgroundColor: "black",
@@ -22,7 +23,7 @@ const Home = () => {
         color: "cornsilk",
     }
     const hrStyle = {
-        borderTop: "5px dotted white",
+        borderTop: "2px solid cornsilk",
         width: "50%",
         margin: "auto"
     }
@@ -42,8 +43,8 @@ const Home = () => {
         position: "fixed",
         width: "100%",
         height: "100%",
-        background: "#659999",
-        background: "linear-gradient(to bottom, #659999, #f4791f)"
+        background: "linear-gradient(to bottom, #659999, #f4791f)",
+        paddingTop: "150px"
     }
     
 
