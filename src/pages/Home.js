@@ -50,6 +50,7 @@ const Home = () => {
 
     return (
         <div style={{width: "100%", margin: "auto"}}>
+            <Nav />
             <Grid style={homeGrid}>
                 <Cell col={12}>
                     <img

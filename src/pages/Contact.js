@@ -1,9 +1,11 @@
 import React from 'react';
+import Nav from '../components/Nav';
 
 const Contact = () => {
     return (
         <div>
-            <h1>Contact</h1>
+        <Nav />
+        <h1>bigChungus</h1>
         </div>
     );
 }

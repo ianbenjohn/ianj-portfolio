@@ -9,7 +9,7 @@ const Nav = () => {
         color: "cornsilk",
         backgroundColor: "black",
         opacity: ".9",
-        position: "fixed"
+        position: "absolute"
     }
     const bigChungus = {
         color: "cornsilk",
