@@ -4,87 +4,110 @@ import Nav from '../components/Nav';
 
 
 const firstProject = {
-    margin: '70px 0px 30px 0px'
+    margin: '70px 0px 30px 0px',
+    boxShadow: '10px 10px 10px 10px black'
+}
+const secondProject = {
+    margin: '70px 0px 30px 0px',
+    boxShadow: '10px 10px 10px 10px black'
+}
+const thirdProject = {
+    margin: '70px 0px 30px 0px',
+    boxShadow: '10px 10px 10px 10px black'
+}
+const fourthProject = {
+    margin: '70px 0px 30px 0px',
+    boxShadow: '10px 10px 10px 10px black'
+}
+const fifthProject = {
+    margin: '70px 0px 30px 0px',
+    boxShadow: '10px 10px 10px 10px black'
+}
+const sixthProject = {
+    margin: '70px 0px 30px 0px',
+    boxShadow: '10px 10px 10px 10px black'
 }
 
 
 
 const Projects = () => {
     return(
+        <div style={{background: "linear-gradient(to bottom, #659999, #f4791f)"}}>
+            <Nav />
         <div style={{display: "flex", flexWrap: 'wrap', justifyContent: "space-evenly"}}>
-
         <div style={firstProject}>
             <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Employee Manager</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Wallaby</CardTitle>
                      <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                         Project completed in Bootcamp June 2020.
+                         Recipe finding app JavaScript App
                     </CardText>
                 <CardActions border>
-                     <Button colored>View Updates</Button>
+                     <Button colored><a href="https://github.com/ianbenjohn/Project-1">GitHub Repo</a></Button>
                 </CardActions>
             </Card>
         </div>
 
-        <div className="secondProject">
+        <div style={secondProject}>
             <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Cangaroo</CardTitle>
                      <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                    Food Bank Inventory Management System
+                    Node/Express, MySQL, Handlebars, JavaScript
                     </CardText>
                 <CardActions border>
-                     <Button colored>View Updates</Button>
+                     <Button colored><a href="https://github.com/cwalker226/Cangaroo">GitHub Repo</a></Button>
                 </CardActions>
             </Card>
         </div>
-        <div className="thirdProject">
+        <div style={thirdProject}>
             <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Quokka</CardTitle>
                      <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                    Plant Social Media App
+                    React, MongoDB 
                     </CardText>
                 <CardActions border>
-                     <Button colored>View Updates</Button>
+                     <Button colored><a href="https://github.com/maxlemieux/quokka">GitHub Repo</a></Button>
                 </CardActions>
             </Card>
         </div>
-        <div className="fourthProject">
+        <div style={fourthProject}>
             <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Note Taker</CardTitle>
                      <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                    Note taking app
+                    Javascript
                     </CardText>
                 <CardActions border>
-                     <Button colored>View Updates</Button>
+                     <Button colored><a href="https://github.com/ianbenjohn/noteTaker">GitHub Repo</a></Button>
                 </CardActions>
             </Card>
         </div>
-        <div className="fifthProject">
+        <div style={fifthProject}>
             <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Greased-Up-Burgers</CardTitle>
                      <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                    An App the lets you see about some Grease 
+                    JavaScript, MySQL
                     </CardText>
                 <CardActions border>
-                     <Button colored>View Updates</Button>
+                     <Button colored><a href="https://github.com/ianbenjohn/greasedUpBurgers">GitHub Repo</a></Button>
                 </CardActions>
             </Card>
         </div>
-        <div className="sixthProject">
+        <div style={sixthProject}>
             <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Update</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Quiz Game</CardTitle>
                      <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                    A game built with html and Javascript
+                    Quiz game that has some cool styling for first project
                     </CardText>
                 <CardActions border>
-                     <Button colored>View Updates</Button>
+                     <Button colored><a href="https://github.com/ianbenjohn/Homework-4">GitHub Repo</a></Button>
                 </CardActions>
             </Card>
+        </div>
         </div>
         </div>
 
