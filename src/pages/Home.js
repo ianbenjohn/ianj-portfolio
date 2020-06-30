@@ -44,7 +44,7 @@ const Home = () => {
         width: "100%",
         height: "100%",
         background: "linear-gradient(to bottom, #659999, #f4791f)",
-        paddingTop: "150px"
+        paddingTop: "60px"
     }
     
 

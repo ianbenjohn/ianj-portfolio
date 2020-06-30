@@ -7,7 +7,7 @@ const Contact = () => {
     const styleContactBody = {
         margin: 'auto',
         background: "linear-gradient(to bottom, #659999, #f4791f)",
-        position: 'fixed',
+        position: 'absolute',
         width: '100%',
         height: '100%',
         marginTop: '60px',
@@ -17,6 +17,7 @@ const Contact = () => {
     const styleContactGrid = {
         textAlign: 'center',
         justifyContent: 'center',
+        postion: 'fixed',
         width: '80%',
         height: '550px',
         background: 'cornsilk',
