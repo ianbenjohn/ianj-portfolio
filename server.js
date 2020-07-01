@@ -4,8 +4,6 @@ const path = require('path');
 
 let app = express();
 
-app.use(express.static(path.join(__dirname, 'build')));
-
 if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
   }
